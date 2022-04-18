@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F2F2F2;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.nav_menu{
+    word-spacing: 30px;
+}
+.bobo{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.bobo:hover{
+    color: #F0544C;
+}
+.vasa{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 25px;
+    transition: 0.8s;
+    color: black;
+}
+.vasa:hover{
+    background-color: #F0544C;
+    color: white;
+    border-radius: 5px;
+    border: #F0544C;
+    padding: 10px 25px;
+}
+.photo{
+    width: 550px;
+    height: 500px;
+    margin-right: 70px;
+}
+.pohuy{
+    width: 30px;
+}
+.mains .container{
+    display: flex;
+    margin-top: 101px; 
+}
+.main_li{
+    display: flex;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.main_menu{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.subtext{
+    margin-left: 10px;
+}
+.mains_link{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: black;
+    transition: 0.8s;
+}
+.mains_link:hover{
+    border: 1px solid #F0544C;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #F0544C;
+}
+.mains_subtext{
+    margin-top: 10px;
+    color: black;
+}
+.pohuy_navsegda{
+    color: blue;
+}
+.main_title{
+     margin-top: 30px;
+}
+.san_loxsan{
+    width: 100px;
+    margin-left: 300px;
+}
+.avtor_lox{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.supra_mk4{
+    width: 70%;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.sections .container{
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+}
+.nissan_r43{
+    margin-left: 20px;
+}
+.sectionas .container{
+    text-align: center;
+    margin-top: 100px;
+}
+.sectionas{
+    border-top: 1px solid gray;
+}
+.nissan_r431{
+    margin-top: 100px;
+    font-size: 50px;
+}
+.qwert{
+    color: #696871;
+    margin-top: 20px;
+    line-height: 28px;
+}
+.title{
+    box-shadow: 0px 12px 34px rgba(65, 62, 101, 0.102519);
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.olmiman_it_zors{
+    color: #413E65;
+    font-size: 90px;
+    font-weight: bold;
+    padding-left: 45px;
+    padding-top: 10px;
+}
+.olmiman_it_zor{
+    border: 1px solid  #EAE9F2;
+    width: 360px;
+    height: 150px;
+    margin-left: 100px;
+    background-color: #EAE9F2;
+    border-radius: 5px;
+}
+.chapter1{
+    padding-left: 190px;
+
+}
+.chaptersubtext{
+    padding-top: 20px;
+    width: 90%;
+    font-size: 20px;
+}
+.linkchapter{
+   padding-bottom: 10px;
+}
+.layot .container{
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: space-around;
+}
+.layotimg{
+    width: 25px;
+    padding-bottom: 20px;
+}
+.layotsubtext{
+    width: 100%;  
+    color: #696871;
+    line-height: 30px;   
+}
+.layottext{
+    padding-bottom: 20px;
+}
+.textt .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.textxt{
+    color: #696871;
+    line-height: 30px;
+    font-size: 20px;
+}
+.textx{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.azginaqoldi_ura{
+    width: 30px;
+    height: 30px;
+}
+.nixuya{
+    width: 200px;
+    border-radius: 5px;
+    height: 80px;
+    background-color: white;
+    width: 30%;
+    margin-bottom: 20px;    
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.divli .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70  px;
+}
+.azginaqoldi_uratext{
+    padding-left: 20px;
+    width: 80%;
+}
+.bookin{
+    width: 120px;
+    height: 120px;
+}
+
+.book{
+    background-color: #413E65;
+    box-shadow: 2px 2px 50px 30px rgba(151, 95, 255, 0.322);
+
+}
+
+.bookinf{
+    width: 1000px;
+    height: 180px;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.booksubtext{
+    width: 60%;
+    color: #99999b;
+    padding-left: 10px;
+}
+.book .container{
+    margin-top: 70px;
+}
+.booklink{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 1s;
+    margin-right: 30px;
+}
+.booklink:hover{
+    background-color: #F0544C;
+    border: 1px solid #F0544C;
+}
+.booktext{
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size:25px;
+}
+.nmu{
+    color: #5454D4;
+    font-size: 50px;
+}
+.num{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.number .container{
+    margin-top: 100px;
+}
+.qwsx{
+    color: #696871;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.numb{
+    text-align: center;
+}
+.textlook .container{
+    text-align: center;
+    margin-top: 100px;
+}
+.looktext{
+    font-size: 50px;
+}
+.looksubtext{
+    font-size: 20px;
+    width: 50%;
+    margin-left: 285px;
+    color: #696871;
+    margin-top: 10px;
+    line-height: 35px;
+}
+.copy{
+    width: 15px;
+}
+.abto{
+    width: 40px;
+    height: 40px;
+}
+.meg{
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    transition: 1s;
+}
+.meg:hover{
+    background-color: #6969e770;
+}
+.mege .container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+.avtor{
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+}
+.subtextqwert{
+    color: #696871;
+}
+.copyimg{
+    padding-bottom: 30px;
+}
+.copysubtext{
+    font-family: 'CircularStd';
+    font-size: 20px;
+    line-height: 30px;
+}
+.avtorexe{
+    padding-left: 20px;
+}
+.avtolink{
+    margin: 90px 0px;
+    border-bottom: 2px solid #5454D4;
+    color: #5454D4 ;
+}
+.infor_photo{
+    width: 230px;
+    height: 230px;
+    margin-left: 160px;
+}
+.information_subtext{
+    margin-left: 80px;
+}
+.infortext{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 90px;
+}
+.subtext_infor{
+    width: 50%;
+}
+.subtext_qaz{
+    width: 90%;
+    color: #696871; 
+    line-height: 30px;    
+}
+.subtext_qwert{
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    color: #696871;
+}
+.infrot{
+    display: flex;
+    align-items: center;
+}
+span{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.link_sub{
+    color: #696871;
+}
+.textqwert{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.subtext_qwert{
+    line-height: 30px;
+}
+.megesect .container{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.megesect{
+    background-color: #413E65 ;
+}
+.three1{
+    justify-content: space-evenly;
+    display: flex;
+}
+.three{
+    width: 30%;
+    height: 330px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    transition: 1s;
+}
+.three:hover{
+    background-color: #003cff33;
+}
+.linkth{
+    color: #5454D4;
+    padding-top: 30px ;
+    padding-bottom: 10px;
+}
+.lio{
+    font-size: 45px;
+    color: #1D293F;
+}
+.cmall{
+    color: #696871;
+    padding-bottom: 30px;
+}
+.pop{
+    color: #19191B;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.input{
+    outline: nolmiman_it_zor;
+    border: nolmiman_it_zor;
+    background-color: #EAE9F2;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.email{
+    border: 2px solid #5454D4;
+    color: #5454D4;
+    border-radius: 2px;
+    padding: 7px 33px;
+    font-weight: bold;
+    transition: 1s;
+}
+.email:hover{
+    background-color: #5454D4;
+    color: white;
+
+}
+.linkem{
+    border: 2px solid #F0544C;
+    padding: 7px 33px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #F0544C;
+    transition: 1s;
+    margin-top: 50px;
+}
+.linkem:hover{
+    background-color: #F0544C;
+    color: white;
+}
+.po, .pop{
+    line-height: 30px;
+}
+.sectmegetext{
+    padding: 50px 0px;
+}
+.megetextt{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.subt{
+    color: #FFFFFF;
+    width: 40%;
+    text-align: center;
+    margin-left: 330px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.imgic{
+    height: 30px;
+    width: 30px;
+}
+.lka{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.h31q{
+    color: white;
+}
+.poi{
+    color: #969696;
+    width: 90%;
+    line-height: 30px;
+}
+.inon, .inon1{
+    display: flex;  
+}
+.lkj, .qwedsa, .tesub, .texticom {
+     margin-left: 20px;        
+}
+.h31q{
+    padding-bottom: 30px;
+}
+.inon1{
+    padding-bottom: 70px;
+
+}
+.ula{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    align-items: center;
+}
+.lwink{
+    color: #F0544C;
+    border: 2px solid #F0544C;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 1s;
+}
+.lwink:hover{
+    background-color: #F0544C;
+    color: white;
+}
+.h2text{
+    font-size: 40px;
+}
+.subticm{
+    color: #696871;
+    line-height: 30px;
+    width: 80%;
+    padding-top: 10px;
+}
+.foter .container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.aa{
+    color: black;
+}
+.plp{
+    color: black;
+}
+.footlk{
+    margin: 0 10px;
+}
+.foot {
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+}
+.aa1{
+    color: black;
+    padding: 0 15px;
+}
